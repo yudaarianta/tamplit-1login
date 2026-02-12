@@ -1,0 +1,295 @@
+<!doctype html>
+<html lang="id">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Toko Karya Seni Bali</title>
+  <link rel="stylesheet" href="style.css">
+  <style>@view-transition { navigation: auto; }</style>
+  <script src="/_sdk/data_sdk.js" type="text/javascript"></script>
+  <script src="/_sdk/element_sdk.js" type="text/javascript"></script>
+  <script src="https://cdn.tailwindcss.com" type="text/javascript"></script>
+ </head>
+ <body><!-- Header -->
+  <header class="header">
+   <div class="header-content"><a href="#home" class="logo"> <span class="logo-icon">🎨</span> <span class="logo-text">Seni Bali</span> 
+    </a><nav class="nav"><a href="#home" class="nav-link active">Home</a> <a href="#produk" class="nav-link">Produk</a> <a href="#review" class="nav-link">Review</a> <a href="#galeri" class="nav-link">Galeri</a> <a href="#tentang" class="nav-link">Tentang</a> <a href="#kontak" class="nav-link">Kontak</a>
+    </nav><button class="menu-toggle" id="menu-toggle"> <span></span> <span></span> <span></span> </button>
+   </div>
+  </header><!-- Hero -->
+  <section id="home" class="hero">
+   <div class="hero-content">
+    <h1 class="hero-title">Karya Seni Bali</h1>
+    <p class="hero-subtitle">Koleksi autentik dari pengrajin lokal terbaik</p><button class="btn btn-primary" onclick="scrollToSection('produk')">Jelajahi</button>
+   </div>
+  </section><!-- Produk Horizontal Scroll -->
+    <section id="produk" class="produk">
+   <div class="container">
+    <div class="section-header">
+     <div>
+        <h1></h1>
+      <h2>Koleksi Produk</h2>
+      <p>Scroll ke kanan untuk melihat lebih banyak →</p>
+     </div>
+    </div>
+    <div class="produk-scroll-wrapper">
+     <div class="produk-scroll">
+      <div class="produk-card">
+       <div class="produk-image">
+        🎨
+       </div>
+       <h3>Batik Tradisional</h3>
+       <p>Motif autentik dengan warna cerah</p>
+       <div class="produk-harga">
+        Rp 450K
+       </div><button class="btn btn-small">Detail</button>
+      </div>
+      <div class="produk-card">
+       <div class="produk-image">
+        🗿
+       </div>
+       <h3>Patung Kayu</h3>
+       <p>Ukiran tangan mitologi Bali</p>
+       <div class="produk-harga">
+        Rp 1.2M
+       </div><button class="btn btn-small">Detail</button>
+      </div>
+      <div class="produk-card">
+       <div class="produk-image">
+        🏺
+       </div>
+       <h3>Keramik Bali</h3>
+       <p>Desain tradisional elegan</p>
+       <div class="produk-harga">
+        Rp 350K
+       </div><button class="btn btn-small">Detail</button>
+      </div>
+      <div class="produk-card">
+       <div class="produk-image">
+        🧵
+       </div>
+       <h3>Tenun Songket</h3>
+       <p>Benang emas bersinar</p>
+       <div class="produk-harga">
+        Rp 2.5M
+       </div><button class="btn btn-small">Detail</button>
+      </div>
+      <div class="produk-card">
+       <div class="produk-image">
+        🎭
+       </div>
+       <h3>Lukisan Bali</h3>
+       <p>Tema budaya lokal</p>
+       <div class="produk-harga">
+        Rp 850K
+       </div><button class="btn btn-small">Detail</button>
+      </div>
+      <div class="produk-card">
+       <div class="produk-image">
+        💎
+       </div>
+       <h3>Perhiasan Perak</h3>
+       <p>Perak 925 berkualitas</p>
+       <div class="produk-harga">
+        Rp 650K
+       </div><button class="btn btn-small">Detail</button>
+      </div>
+     </div>
+    </div>
+   </div>
+<section id="review" class="review">
+  <div class="container">
+    <div class="section-header">
+      <h2>Ulasan Pelanggan</h2>
+      <p>Kepuasan pelanggan adalah prioritas kami</p>
+    </div>
+
+    <div class="review-wrapper">
+      <!-- Tombol Prev -->
+      <button class="scroll-btn prev-btn">&#10094;</button>
+
+      <div class="review-grid">
+        <div class="review-card">
+          <div class="review-header">
+            <div class="reviewer-info">
+              <div class="reviewer-avatar">👩‍🦰</div>
+              <div>
+                <h4>Siti Nurhaliza</h4>
+                <p>Jakarta</p>
+              </div>
+            </div>
+            <div class="review-stars">⭐⭐⭐⭐⭐</div>
+          </div>
+          <p class="review-text">"Produk batik yang saya beli sangat berkualitas dan warnanya tetap cerah setelah dicuci. Pengemasan rapi dan pengiriman cepat sekali! Recommended untuk teman-teman."</p>
+          <span class="review-date">2 minggu lalu</span>
+        </div>
+        <div class="review-card">
+          <div class="review-header">
+            <div class="reviewer-info">
+              <div class="reviewer-avatar">👨‍💼</div>
+              <div>
+                <h4>Budi Santoso</h4>
+                <p>Surabaya</p>
+              </div>
+            </div>
+            <div class="review-stars">⭐⭐⭐⭐⭐</div>
+          </div>
+          <p class="review-text">"Patung kayu yang saya terima sangat detail dan indah. Setiap ukiran terlihat sempurna. Sudah menjadi hiasan favorit di ruang tamu saya. Terima kasih Seni Bali!"</p>
+          <span class="review-date">1 bulan lalu</span>
+        </div>
+        <div class="review-card">
+          <div class="review-header">
+            <div class="reviewer-info">
+              <div class="reviewer-avatar">👩‍🏫</div>
+              <div>
+                <h4>Dewi Astuti</h4>
+                <p>Bandung</p>
+              </div>
+            </div>
+            <div class="review-stars">⭐⭐⭐⭐⭐</div>
+          </div>
+          <p class="review-text">"Keramik yang saya beli sangat fungsional dan cantik. Harganya jauh lebih terjangkau dari toko lain dengan kualitas premium. Puas banget dengan pelayanan customer service-nya!"</p>
+          <span class="review-date">3 minggu lalu</span>
+        </div>
+        <div class="review-card">
+          <div class="review-header">
+            <div class="reviewer-info">
+              <div class="reviewer-avatar">👩‍🎨</div>
+              <div>
+                <h4>Rina Wijaya</h4>
+                <p>Medan</p>
+              </div>
+            </div>
+            <div class="review-stars">⭐⭐⭐⭐⭐</div>
+          </div>
+          <p class="review-text">"Tenun songket impian saya akhirnya punya! Kualitas benang emas asli dan desainnya autentik. Sempurna untuk acara spesial. Terima kasih telah menjaga keaslian produk!"</p>
+          <span class="review-date">1 bulan lalu</span>
+        </div>
+        <div class="review-card">
+          <div class="review-header">
+            <div class="reviewer-info">
+              <div class="reviewer-avatar">👨‍🎓</div>
+              <div>
+                <h4>Rudi Hermawan</h4>
+                <p>Yogyakarta</p>
+              </div>
+            </div>
+            <div class="review-stars">⭐⭐⭐⭐⭐</div>
+          </div>
+          <p class="review-text">"Lukisan Bali yang saya beli mencerminkan budaya lokal dengan sempurna. Setiap detail dikerjakan dengan penuh dedikasi. Cocok banget buat kado ke keluarga di luar negeri!"</p>
+          <span class="review-date">2 minggu lalu</span>
+        </div>
+        <div class="review-card">
+          <div class="review-header">
+            <div class="reviewer-info">
+              <div class="reviewer-avatar">👩‍💻</div>
+              <div>
+                <h4>Laila Rahmah</h4>
+                <p>Semarang</p>
+              </div>
+            </div>
+            <div class="review-stars">⭐⭐⭐⭐⭐</div>
+          </div>
+          <p class="review-text">"Perhiasan perak yang saya pesan sangat indah dan nyaman dipakai. Desainnya elegant dan unik. Sudah order dua kali dan tidak pernah mengecewakan. Best seller!"</p>
+          <span class="review-date">1 minggu lalu</span>
+        </div>
+      </div>
+
+      <!-- Tombol Next -->
+      <button class="scroll-btn next-btn">&#10095;</button>
+    </div>
+  </div>
+</section>
+  </section><!-- Galeri -->
+  <section id="galeri" class="galeri">
+   <div class="container">
+    <div class="section-header">
+     <h2>Galeri Terbaru</h2>
+     <p>Koleksi karya terkini dari workshop</p>
+    </div>
+    <div class="galeri-grid">
+     <div class="galeri-item">
+      <div class="galeri-image" style="background: linear-gradient(135deg, #e8dcc8, #d4b5a0);">
+       🎨
+      </div>
+      <h3>Batik Sunset</h3>
+     </div>
+     <div class="galeri-item">
+      <div class="galeri-image" style="background: linear-gradient(135deg, #d4c5b9, #8b7355);">
+       🗿
+      </div>
+      <h3>Patung Dewa</h3>
+     </div>
+     <div class="galeri-item">
+      <div class="galeri-image" style="background: linear-gradient(135deg, #d9c9b8, #b8a090);">
+       🏺
+      </div>
+      <h3>Vas Keramik</h3>
+     </div>
+     <div class="galeri-item">
+      <div class="galeri-image" style="background: linear-gradient(135deg, #e8dcc8, #c4b5a0);">
+       💫
+      </div>
+      <h3>Hiasan Dinding</h3>
+     </div>
+    </div>
+   </div>
+  </section><!-- Tentang -->
+  <section id="tentang" class="tentang">
+   <div class="container">
+    <div class="tentang-content">
+     <div class="tentang-text">
+      <h2>Tentang Kami</h2>
+      <p>Kami adalah pusat jual-beli karya seni autentik dari pengrajin terbaik di Bali. Setiap produk adalah hasil karya tangan dengan kualitas terjamin internasional.</p>
+      <ul class="tentang-list">
+       <li>Produk 100% autentik Bali</li>
+       <li>Pengrajin berpengalaman puluhan tahun</li>
+       <li>Kualitas berstandar internasional</li>
+       <li>Pengiriman ke seluruh dunia</li>
+      </ul>
+     </div>
+     <div class="tentang-image">
+      <div class="tentang-image-placeholder">
+       🏛️
+      </div>
+     </div>
+    </div>
+   </div>
+  </section><!-- Newsletter -->
+  <section class="newsletter">
+   <div class="container">
+    <div class="newsletter-content">
+     <h2>Update Terbaru</h2>
+     <p>Berlangganan untuk penawaran eksklusif</p>
+     <form class="newsletter-form" onsubmit="handleNewsletterSubmit(event)"><input type="email" placeholder="Email Anda..." required> <button type="submit" class="btn">Subscribe</button>
+     </form>
+     <div id="newsletter-message"></div>
+    </div>
+   </div>
+  </section><!-- Footer -->
+  <footer id="kontak" class="footer">
+   <div class="container">
+    <div class="footer-grid">
+     <div class="footer-section">
+      <h3>Seni Bali</h3>
+      <p>Karya seni autentik dari pengrajin lokal</p>
+     </div>
+     <div class="footer-section">
+      <h3>Kontak</h3>
+      <p>📱 +62 812-3456-7890</p>
+      <p>📧 info@seni-bali.com</p>
+     </div>
+     <div class="footer-section">
+      <h3>Jam Buka</h3>
+      <p>Senin - Jumat: 09:00 - 18:00</p>
+      <p>Sabtu - Minggu: 10:00 - 17:00</p>
+     </div>
+    </div>
+    <div class="footer-bottom">
+     <p>© 2024 Seni Bali. All rights reserved.</p>
+    </div>
+   </div>
+  </footer>
+  <script src="script.js"></script>
+ <script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'9cba9352f1091184',t:'MTc3MDcxNTY5Ny4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+</html>
